@@ -1,0 +1,5 @@
+Scrivere un programma che calcoli la media di una sequenza di interi terminata da -1. Si ricorda che il calcolo della media è dato dalla somma dei valori della sequenza diviso il numero di valori presenti nella sequenza.
+Ad esempio, se la sequenza fosse 1 2 3 -1 il programma stampa 2 perchè la somma è 6, nella sequenza sono presenti 3 valori e 6/3=2.
+
+Scrivere un programma che presi da input X numeri stampi separatamente la somma dei pari e la somma dei dispari.
+Ad esempio, se X è 5 e la sequenza 1 2 3 4 5 il programma stampa 6 che è la somma dei pari e 9 che è la somma dei dispari. 

@@ -1,0 +1,80 @@
+Scrivere un programma che, letto da input un numero intero N che rappresenta il voto conseguito
+all’esame di Fondamenti, comunica allo studente se l’esame è stato superato o meno. Più in dettaglio, il
+programma deve effettuare le seguente operazioni:
+- Leggere N da input
+- Se N è minore (<) di 0 oppure maggiore di 30 deve stampare la stringa “VOTO NON VALIDO”
+- Altrimenti, se N è maggiore o uguale a 18 (>=) il programma deve stampare la stringa “ESAME
+SUPERATO”
+- Altrimenti, deve stampare la stringa “BOCCIATO”.
+
+-----
+
+Un idraulico chiede € 40,00 per un'ora di lavoro, più il costo del materiale, con un minimo di € 100,00 per
+ogni lavoro. Scrivere un programma che, dati in input due interi rappresentanti rispettivamente il costo del
+materiale e il numero di ore lavorative, determini la spesa totale, facendola ammontare al limite minimo
+quando previsto.
+ESEMPI:
+- Se il costo del materiale fosse 12 e il numero di ore lavorative fosse 2 la spesa per l’idraulico
+sarebbe 92 infatti il calcolo da fare è 2*40 + 12. Essendo il valore della spesa inferiore al
+limite minimo di 100, il programma dovrà stampare 100.
+- Se il costo del materiale fosse 471 e il numero di ore lavorative fosse 13 la spesa per l’idraulico
+sarebbe 991 infatti il calcolo da fare è 13*40 + 471. Essendo il valore della spesa superiore al
+limite minimo di 100, il programma dovrà stampare 991. 
+
+-----
+
+Supponendo che la bolletta del telefono venga calcolata nel seguente modo:
+- Un valore fisso di 5€ per le prime 80 chiamate;
+- 0.10€ per ciascuna delle 60 chiamate successive;
+- 0.07€ per ciascuna delle ulteriori 50 chiamate (oltre le 140 fino alle 190);
+- 0.05€ per ciascuna delle ulteriori chiamate (oltre le 190).
+Scrivere un programma che, letto da input il numero di chiamate effettuate, visualizzi l'importo da
+pagare arrotondato a tre cifre decimali (si usi a tal proposito, la funzione round).
+ATTENZIONE: Si noti che affinché il programma possa essere gestito dal valutatore automatico, deve
+essere inviata in stampa solo ed esclusivamente il valore dell’importo da pagare, senza andare a capo e
+senza aggiungere spaziature o altre stampe (neppure quelle che possono precedere l’istruzione input
+per comunicare a chi esegue il programma che dati inserire).
+ESEMPI:
+- Se il numero di chiamate fosse 12 il programma stamperebbe 5
+- Se il numero di chiamate fosse 140 il programma stamperebbe 11
+- Se il numero di chiamate fosse 143 il programma stamperebbe 11.21 
+
+-----
+
+Scrivere un programma che permetta di stabilire la stagione corrispondente al mese inserito
+come intero dall’utente.
+Ad esempio, se l’utente digita 1 che corrisponde a Gennaio il programma deve stampare
+“INVERNO”.
+Qualora l’utente digitasse un numero non compreso tra 1 e 12, il programma deve stampare
+“MESE NON VALIDO”.
+Qualora il mese sia Marzo, Giugno, Settembre o Dicembre, ovvero un mese a cavallo di due
+stagioni, si richieda all’utente di specificare anche il giorno. Se il giorno è compreso tra 1 e 20
+(estremi inclusi) si considera la stagione precedente altrimenti quella successiva. Per
+semplicità, si consideri la stagione successiva anche se il giorno inserito fosse non valido, ad
+esempio perché minore di 1.
+Ad esempio, se l’utente digita 6 che corrisponde a Giugno e come giorno digita 15 il
+programma deve stampare “PRIMAVERA”. 
+
+-----
+
+Scrivere un programma che individui il giocatore vincente in una mano del gioco della briscola.
+Ovvero, si richiederanno come input (nell’ordine):
+1. il seme della briscola (un numero da 1 a 4),
+2. il seme della carta tirata dal primo giocatore (un numero da 1 a 4),
+3. la carta giocata dal primo giocatore (un numero da 1 a 10, 1 rappresenta l’asso, 2 rappresenta 2 etc… fino a 8 che rappresenta il fante, 9 il cavallo e 10 il re),
+4. il seme della carta tirata dal secondo giocatore (un numero da 1 a 4),
+5. la carta giocata dal secondo giocatore (un numero da 1 a 10, 1 rappresenta l’asso, 2 rappresenta 2 etc… fino a 8 che rappresenta il fante, 9 il cavallo e 10 il re).
+Il programma deve quindi stampare “VINCE GIOCATORE 1” oppure “VINCE GIOCATORE 2”  per indicare se ha vinto il primo giocatore oppure il secondo.
+Per semplicità si può assumere che l’input fornito sia valido, ovvero non vengano mai inseriti semi non compresi tra 1 e 4 e carte non comprese tra 1 e 10.
+Si ricorda che la Briscola si gioca con un mazzo di 40 carte diviso in 4 semi, ciascuno di 10 carte e che le regole della Briscola prevedono i seguenti criteri per vincere una mano del gioco.
+Il primo giocatore a giocare una carta (detto giocatore di mano) determina con la stessa il seme di mano. Il secondo giocatore non ha alcun obbligo di giocare un particolare seme. La mano è aggiudicata al secondo giocatore se questi gioca una carta del seme di mano con valore di presa maggiore, o una carta del seme di briscola anche se con valore di presa inferiore. Si riportano di seguito i valori di presa delle singole carte:
+ ASSO Valore 11
+ TRE Valore 10.5
+ RE Valore 10
+ CAVALLO Valore 9
+ FANTE Valore 8
+ 7 Valore 7
+ 6 Valore 6
+ 5 Valore 5
+ 4 Valore 4
+ 2 Valore 2

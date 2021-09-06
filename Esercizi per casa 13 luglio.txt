@@ -1,0 +1,6 @@
+1. Si implementi un metodo che, ricevuto un array di interi, restituisca il numero di elementi maggiori di zero in esso contenuti 
+2. Si implementi in Java un metodo che, ricevuto un array di interi ed un numero intero n, verifichi se n è contenuto nell'array oppure no.
+3. Si implementi in Java un metodo che, ricevuti 2 array di interi, di dimensioni qualunque, restituisca "true" se essi sono identici, "false" altrimenti.
+4. Si implementi in Java un metodo che, ricevuti 2 array di interi, di dimensioni qualunque, restituisca "true" se ogni elemento del primo è minore di ogni elemento del secondo, "false" altrimenti.
+5. Si implementi in Java un metodo che, ricevuti 2 array di interi, di uguale dimensione, restituisca un terzo array pari alla somma dei due.
+6. Si implementi in Java un metodo che, ricevuto un array di interi, restituisca "true"  se esso è palindromo, "false" altrimenti.

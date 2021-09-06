@@ -1,0 +1,46 @@
+Scrivere un programma che preso da input un intero X, utilizzando opportuni metodi, controlli se X è un numero triangolare ed eventualmente lo rappresenti graficamente come riportato in basso:
+
+Rappresentazione Grafica 1
+1       *
+
+3	*
+	* *
+
+6	*
+	* *
+	* * *
+
+10      *
+	* *
+	* * *
+	* * * *
+
+Rappresentazione Grafica 2
+1        *
+
+3	 *
+	* *
+
+6	 *
+	* *
+       * * *
+
+10       *
+        * *
+       * * *
+      * * * *
+
+===============================================================
+Scrivere un programma che preso da input un numero N stampa SI se N è un numero perfetto. 
+Un numero perfetto è un numero naturale che è uguale alla somma dei suoi divisori positivi, escludendo il numero stesso. Ad esempio, 28 è un numero perfetto perchè i suoi divisori (escluso 28) sono 1,2,4,7,14 e la loro somma è 
+1+2+4+7+14=28.
+
+===============================================================
+Scrivere un programma che presi da input N numeri ne calcoli la media M e stampi il numero più grande 
+tra quelli più piccoli di M.
+
+
+===============================================================
+Scrivere un programma che presi da input N numeri ne calcoli la media M e stampi il numero più piccolo 
+tra quelli più grandi di M.
+
